@@ -19,11 +19,12 @@ body {
 }
 
 .section-testimonials {
+  padding: 9.6rem;
   background-color: hsl(210, 46%, 95%);
+  box-shadow: 0 2px 10px 4px #ddd;
 }
 
 .testimonial-container {
-  padding: 9.6rem 1.6rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
@@ -179,12 +180,12 @@ body {
   margin-bottom: 2.4rem;
 }
 
-.testimonila-info {
+.testimonial-info {
   font-size: 1.4rem;
 }
 
 .testimonial-name {
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   font-weight: 500;
   letter-spacing: 0.75px;
   margin-bottom: 4px;
@@ -192,19 +193,19 @@ body {
 }
 
 .testimonial-status {
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
   letter-spacing: 0.75px;
 }
 
 .testimonial-content {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 2.4rem;
 }
 
 .testimonial-text {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   color: rgba(72, 85, 106, 0.7);
 }
